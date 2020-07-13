@@ -1,0 +1,47 @@
+body, html {
+	height: 100%;
+	width: 100%;
+	font-family: 'Grenze Gotisch', cursive; 
+    background: url(header.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+h1 {
+	color: #C0C0C0;
+	font-size: 5rem;
+	width: 100%
+}
+
+.click {
+	height: -230px;
+	width: 500px;
+}
+
+.btn {
+	font-family: roboto;
+	font-weight: 700;
+	border-radius: 300px;
+	padding: 1rem 2rem;
+	text-transform: uppercase;
+	background-color: #FE253A;
+	border-color: #FE253A;
+}
+
+.btn-primary:hover {
+	background-color: #FF0D00;
+	border-color: #FF0D00;
+	border-width: 4px; 
+}
+
+hr {
+	border-color: #FE253A;
+	border-width: 4px;
+	max-width: 65px;
+	height: 35px;
+}
+
+.buffer {
+	height: 12rem;
+}
